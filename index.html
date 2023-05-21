@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Currency Api</title>
+  </head>
+  <body>
+    <div class="app">
+      
+      <div class="icons">
+        <div class="menu">
+          <i class='bx bx-menu'></i>
+        </div>
+        <div class="setting">
+          <i class='bx bx-cog'></i>
+        </div>
+        <div class="expand">
+          <i class='bx bx-right-top-arrow-circle'></i>
+        </div>
+      </div>
+
+      <span>amount</span>
+      <div>
+        <input class="amount" type="text" placeholder="0"/>
+      </div>
+      <div class="dollar"><img src="https://cdn.britannica.com/79/4479-050-6EF87027/flag-Stars-and-Stripes-May-1-1795.jpg"> USD / Dollar</div>
+      <span class="to">To</span>
+      <select class="currency">
+        <option value="SAR">SAR / Saudi Riyal</option>
+        <option value="EGP">EGP / Egypt Pound</option>
+      </select>
+      <button class="convert">convert</button>
+      <div class="result"></div>
+    </div>
+  </body>
+</html>
